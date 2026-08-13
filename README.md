@@ -14,15 +14,19 @@ Styles: Regular, Italic, Bold and BoldItalic.
 
 ## Get the sources
 
+Nerd Fonts repo is huge, it's encouraged to use `git submodule update` separately from `git clone`
+to make sure the submodule is cloned in a shallow manner.
+
 ```sh
 git clone https://github.com/nk4rter/iosevka-custom-nerd-font
 cd iosevka-custom-nerd-font
-git submodule update --init --recursive --depth 1
+git submodule update --init --recursive --depth 1 --progress
 ```
 
 ## Build in Docker
 
-Make sure you have access to the docker daemon (log out and back in afterwards):
+Make sure you have access to the docker daemon, if you haven't done it already
+(log out and back in afterwards):
 
 ```sh
 sudo usermod -aG docker "$USER"
