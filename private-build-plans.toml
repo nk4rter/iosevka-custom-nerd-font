@@ -1,0 +1,45 @@
+[buildPlans.IosevkaCustom]
+family = "Iosevka Custom"
+spacing = "term"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+  [buildPlans.IosevkaCustom.variants]
+  inherits = "ss05"
+
+  [buildPlans.IosevkaCustom.ligations]
+  inherits = "dlig"
+
+  [buildPlans.IosevkaCustom.subset.exclude]
+  ranges = [[10003, 10008]]
+
+[buildPlans.IosevkaCustom.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.IosevkaCustom.weights.Bold]
+shape = 700
+menu = 700
+css = 700
+
+[buildPlans.IosevkaCustom.widths.Normal]
+shape = 615     # Fira Code: 1200/1950 em
+menu = 5
+css = "normal"
+
+[buildPlans.IosevkaCustom.slopes.Upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.IosevkaCustom.slopes.Italic]
+angle = 9.4
+shape = "italic"
+menu = "italic"
+css = "italic"
+
+[buildPlans.IosevkaCustom.metricOverride]
+leading = 1231     # Fira Code: 2400/1950 em
