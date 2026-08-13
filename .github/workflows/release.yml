@@ -1,0 +1,25 @@
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: sudo apt update && sudo apt install -y --no-install-recommends python3-fontforge ttfautohint
+      - run: ./build.sh
+      - run: tar -czf "IosevkaCustomNerdFont-${{ github.ref_name }}.tar.gz" -C out .
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: IosevkaCustomNerdFont-${{ github.ref_name }}.tar.gz
