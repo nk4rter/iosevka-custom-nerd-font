@@ -1,0 +1,14 @@
+[submodule "Iosevka"]
+	path = Iosevka
+	url = https://github.com/be5invis/Iosevka
+	branch = v34.8.0
+	shallow = true
+[submodule "nerd-fonts"]
+	path = nerd-fonts
+	url = https://github.com/ryanoasis/nerd-fonts
+	branch = v3.5.0
+	shallow = true
+[submodule "run-docker"]
+	path = run-docker
+	url = https://github.com/nk4rter/run-docker
+	branch = v1.0
