@@ -43,3 +43,7 @@ Run the build:
 ```sh
 ./run-docker/run-docker.sh -i iosevka-buildenv ./build.sh
 ```
+
+## License
+
+Files in this repo are under MIT license. Iosevka and Nerd Fonts are under their own licenses.
