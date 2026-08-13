@@ -41,7 +41,7 @@ docker build -t iosevka-buildenv etc/buildenv
 Run the build:
 
 ```sh
-./run-docker/run-docker.sh -i iosevka-buildenv ./build.sh
+./run-docker/run-docker.sh -R -i iosevka-buildenv ./build.sh
 ```
 
 ## License
