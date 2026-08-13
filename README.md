@@ -44,6 +44,13 @@ Run the build:
 ./run-docker/run-docker.sh -R -i iosevka-buildenv ./build.sh
 ```
 
+## Calculate Iosevka's parameters to match other font's grid
+
+```sh
+2>/dev/null ./run-docker/run-docker.sh -R -i iosevka-buildenv ./etc/scripts/font-grid.py \
+  nerd-fonts/src/unpatched-fonts/FiraCode/FiraCode-Regular.ttf
+```
+
 ## License
 
 Files in this repo are under MIT license. Iosevka and Nerd Fonts are under their own licenses.

@@ -6,6 +6,7 @@ RUN apt update && apt install -y --no-install-recommends \
     ca-certificates \
     git \
     python3-fontforge \
+    python3-fonttools \
     ttfautohint \
  && rm -rf /var/lib/apt/lists/*
 
