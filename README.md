@@ -41,7 +41,7 @@ docker build -t iosevka-buildenv etc/buildenv
 Run the build:
 
 ```sh
-./run-docker/run-docker.sh -R -i iosevka-buildenv ./build.sh
+./run-docker/run-docker.sh -R -i iosevka-buildenv make
 ```
 
 ## Calculate Iosevka's parameters to match other font's grid
