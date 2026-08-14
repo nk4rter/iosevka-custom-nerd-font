@@ -8,6 +8,9 @@ exportGlyphNames = false
   [buildPlans.IosevkaCustom.variants]
   inherits = "ss05"
 
+    [buildPlans.IosevkaCustom.variants.design]
+    underscore = "high"
+
   [buildPlans.IosevkaCustom.ligations]
   inherits = "dlig"
 
