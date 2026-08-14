@@ -10,6 +10,7 @@ exportGlyphNames = false
 
     [buildPlans.IosevkaCustom.variants.design]
     underscore = "high"
+    ampersand = "closed"
 
   [buildPlans.IosevkaCustom.ligations]
   inherits = "dlig"
