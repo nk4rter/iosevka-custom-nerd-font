@@ -10,7 +10,6 @@ if [ ! -d out ]; then
   exit 1
 fi
 
-rm -rf "$FONT_DIR"
 mkdir -p "$FONT_DIR"
 
 echo >&2 "INFO: Installing to $FONT_DIR"
