@@ -1,7 +1,7 @@
 # Iosevka Custom Nerd Font
 
 Terminal-spacing, sans-serif variant with the `Fira Mono Style (ss05)` character variants,
-discretionary ligatures, narrowed and with the leading adjusted to Fira Code's proportions.
+discretionary ligatures, narrowed and with the leading adjusted to Hack's proportions.
 
 Styles: Regular, Italic, Bold and BoldItalic.
 
@@ -48,7 +48,7 @@ Run the build:
 
 ```sh
 2>/dev/null ./run-docker/run-docker.sh -R -i iosevka-buildenv ./etc/scripts/font-grid.py \
-  nerd-fonts/src/unpatched-fonts/FiraCode/FiraCode-Regular.ttf
+  nerd-fonts/src/unpatched-fonts/Hack/Hack-Regular.ttf
 ```
 
 ## License
