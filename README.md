@@ -5,6 +5,10 @@ discretionary ligatures, narrowed and with the leading adjusted to Hack's propor
 
 Styles: Regular, Italic, Bold and BoldItalic.
 
+<p align="center">
+    <img src="etc/images/demo.svg" alt="demo">
+</p>
+
 ## Versions
 
 | Submodule                                              | Version   |

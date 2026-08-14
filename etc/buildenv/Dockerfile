@@ -5,6 +5,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 RUN apt update && apt install -y --no-install-recommends \
     ca-certificates \
     git \
+    libharfbuzz-bin \
     make \
     python3-fontforge \
     python3-fonttools \
