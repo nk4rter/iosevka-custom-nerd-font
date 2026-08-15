@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 
-# Render a text file as an SVG, shaped with HarfBuzz so that ligatures apply and
-# drawn as glyph outlines so that no font is needed to display it.
-#
-# Usage: demo-svg.py FONT TEXT-FILE SVG-FILE
+# Usage: demo-svg.py <font> <text> <svg>
 
 import json, subprocess, sys
 

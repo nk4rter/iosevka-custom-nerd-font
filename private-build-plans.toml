@@ -29,7 +29,7 @@ menu = 700
 css = 700
 
 [buildPlans.IosevkaCustom.widths.Normal]
-shape = 602     # 1233/2048 em
+shape = 602     # Hack: 1233/2048 em
 menu = 5
 css = "normal"
 
@@ -46,4 +46,4 @@ menu = "italic"
 css = "italic"
 
 [buildPlans.IosevkaCustom.metricOverride]
-leading = 1164     # hhea 1901 + 483 + 0 = 2384/2048 em
+leading = 1164     # Hack: hhea 1901 + 483 + 0 = 2384/2048 em
